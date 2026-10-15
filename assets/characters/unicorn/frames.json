@@ -1,0 +1,282 @@
+[
+  {
+    "file": "idle-00.png",
+    "source_bounds": [
+      41,
+      79,
+      239,
+      272
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "8721670d9285302f6d269b52b13dae792ed29797f682f0ba1eb454a1630c87d4"
+  },
+  {
+    "file": "idle-01.png",
+    "source_bounds": [
+      316,
+      78,
+      517,
+      271
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "6d72e8c0ec8199bc561998b81190920df1da62b5886f238d7b9722e6747baac1"
+  },
+  {
+    "file": "idle-02.png",
+    "source_bounds": [
+      585,
+      79,
+      793,
+      273
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "796913e27feeef73f2f4df860f397e27d1a8464303b07046dc97d904857d043c"
+  },
+  {
+    "file": "idle-03.png",
+    "source_bounds": [
+      864,
+      79,
+      1062,
+      272
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "1a752d0e1fe015742156c145cee37ffed1cce06dfb3593d13d1609e00d3f10ec"
+  },
+  {
+    "file": "run-00.png",
+    "source_bounds": [
+      1126,
+      88,
+      1340,
+      274
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "537709b4dbdbce41d3a9f55a1fbbc324c03c503f5faf773c4fa8080922d6cffd"
+  },
+  {
+    "file": "run-01.png",
+    "source_bounds": [
+      36,
+      359,
+      247,
+      545
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "c3984aea3aaa1ecc7254a4751ef3e7c5ae86bc04a71acbd984a0533c0a2fc6c0"
+  },
+  {
+    "file": "run-02.png",
+    "source_bounds": [
+      316,
+      362,
+      520,
+      546
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "46bd45020e6a9962922e0686748e46ba865730ecebc7d5470969c5f26ee0b421"
+  },
+  {
+    "file": "run-03.png",
+    "source_bounds": [
+      585,
+      360,
+      802,
+      546
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "f98da4fd154839150ddb260db80f9f8db56057558155e02f0c7e4a7630dbc1c1"
+  },
+  {
+    "file": "run-04.png",
+    "source_bounds": [
+      859,
+      360,
+      1071,
+      551
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "5b3ffa038169f9678c44ad6427548f5fccdf91ec8ed6e084b2a6817773042327"
+  },
+  {
+    "file": "run-05.png",
+    "source_bounds": [
+      1137,
+      360,
+      1350,
+      549
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "31af10b8ded71e2689084daecca68fbc1f68f5bec4cdcc3417024c693bad02d7"
+  },
+  {
+    "file": "jump-00.png",
+    "source_bounds": [
+      41,
+      624,
+      250,
+      805
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "9be892ea510d18b31c6dd21fd1d36d7f475e0e1e526785ff9823956b27276848"
+  },
+  {
+    "file": "jump-01.png",
+    "source_bounds": [
+      322,
+      628,
+      536,
+      809
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "a041b47a60e5406219dfbdcfd7bf64ab4b5e38941bf1fbd8eeacafae971e2f5c"
+  },
+  {
+    "file": "land-00.png",
+    "source_bounds": [
+      587,
+      651,
+      817,
+      813
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "8aff703fdd3b8dcd1129523f8e39a2d6da090f1338849c8ed06414837924bc59"
+  },
+  {
+    "file": "land-01.png",
+    "source_bounds": [
+      863,
+      627,
+      1076,
+      814
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "f518c7f017a7ea9df6af9dd3d5fc8e621da7544d3b8b7a09141e3705086b11ee"
+  },
+  {
+    "file": "hurt-00.png",
+    "source_bounds": [
+      1140,
+      618,
+      1342,
+      812
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "f82e339f543eddf355f2c1377fd10a5f45477801b433163d8fed815c5b8839da"
+  },
+  {
+    "file": "hurt-01.png",
+    "source_bounds": [
+      40,
+      882,
+      251,
+      1076
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "100b8638520d81e1a8d849752918de0a2ed4ce317de402e6b2a3c2f1618ac7fd"
+  },
+  {
+    "file": "win-00.png",
+    "source_bounds": [
+      332,
+      868,
+      531,
+      1071
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "345b92e58008129a1bd8dc93fcc85e73e031cc497dd2bb66be2b712610acb26d"
+  },
+  {
+    "file": "win-01.png",
+    "source_bounds": [
+      588,
+      875,
+      797,
+      1078
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "e4e3b93267cfd324bb4fb76488e466fc3934ec014c688e693a1348ec80f38344"
+  },
+  {
+    "file": "win-02.png",
+    "source_bounds": [
+      863,
+      868,
+      1075,
+      1078
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "005c17354fce21362f46529ff1a727189d7693434f58c45ac2394a7b1da50626"
+  },
+  {
+    "file": "win-03.png",
+    "source_bounds": [
+      1135,
+      873,
+      1347,
+      1079
+    ],
+    "anchor": [
+      128,
+      240
+    ],
+    "sha256": "ad05603c6b20dd7ed6e034ce62525ae6bc4a204a10921d6d4d8f4323139d6e31"
+  }
+]
