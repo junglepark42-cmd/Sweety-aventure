@@ -1,14 +1,1 @@
-{
-  "name": "sweety-adventure",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "test": "node --test tests/core.test.cjs",
-    "test:browser": "node tests/browser.cjs",
-    "serve": "node tests/server.cjs",
-    "test:realtime": "node tests/real-play.cjs"
-  },
-  "devDependencies": {
-    "playwright": "1.62.1"
-  }
-}
+{"private":true,"type":"module","devDependencies":{"playwright":"1.62.1"}}
