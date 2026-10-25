@@ -1,4 +1,4 @@
-name: Publish Sweety Motion to GitHub Pages
+name: Publish Sweety Motion to GitHub Pages — rebuild
 on:
   push:
     branches: [main]
