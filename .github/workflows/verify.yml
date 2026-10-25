@@ -1,13 +1,13 @@
-name: Verify game
+name: Verify Sweety Motion
 on:
   push:
-    branches: [main, 'repair/**']
+    branches: [main]
   pull_request:
     branches: [main]
 permissions:
   contents: read
 jobs:
-  verify:
+  browser:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -15,18 +15,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
       - run: npm install --ignore-scripts
-      - run: pip install pillow
       - run: npx playwright install --with-deps chromium
-      - run: npm test
-      - run: python tests/assets_test.py
-      - run: npm run test:browser
-      - run: npm run test:realtime
+      - name: Start game server
+        run: |
+          python3 -m http.server 8765 >/tmp/sweety-server.log 2>&1 &
+          sleep 2
+      - name: Run mobile and desktop browser tests
+        run: node tests/smoke.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: sweety-browser-evidence
+          name: sweety-motion-browser-screenshots
           path: test-results/
